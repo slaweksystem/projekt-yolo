@@ -7,7 +7,7 @@ import os
 from ultralytics import YOLO
 
 # Load YOLO model
-model = YOLO('best.pt')
+model = YOLO('models/impatientmodel-v1.pt')
 
 # Global state
 image_paths = []
